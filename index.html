@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ganbara Hostel · Hostel en el Casco Viejo de Bilbao</title>
+<meta name="description" content="Ganbara Hostel, en Prim 13, en pleno Casco Viejo de Bilbao. Literas en habitaciones compartidas, cocina, salón y self check-in. Reserva directa por WhatsApp: 645 66 70 01.">
+<meta name="theme-color" content="#103a24">
+<link rel="canonical" href="https://ggeelcano.github.io/ganbara/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ganbara Hostel">
+<meta property="og:url" content="https://ggeelcano.github.io/ganbara/">
+<meta property="og:title" content="Ganbara Hostel · Casco Viejo de Bilbao">
+<meta property="og:description" content="Hostel en Prim 13, en pleno Casco Viejo. Reserva directa con nosotros.">
+<meta property="og:image" content="https://ggeelcano.github.io/ganbara/img/fachada.jpg">
+<meta property="og:locale" content="es_ES">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23103a24'/%3E%3Crect x='7' y='7' width='5' height='18' fill='%232c7a49'/%3E%3Crect x='14' y='7' width='4' height='18' fill='%23ecc531'/%3E%3Crect x='20' y='7' width='5' height='18' fill='%232c7a49'/%3E%3C/svg%3E">
+<link rel="preload" as="image" href="img/fachada.jpg">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="assets/ganbara.css">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Hostel","name":"Ganbara Hostel","url":"https://ggeelcano.github.io/ganbara/","image":"https://ggeelcano.github.io/ganbara/img/fachada.jpg","telephone":"+34645667001","address":{"@type":"PostalAddress","streetAddress":"Prim Kalea, 13, bajo","postalCode":"48006","addressLocality":"Bilbao","addressRegion":"Bizkaia","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":43.2584713,"longitude":-2.9187802},"checkinTime":"15:00","checkoutTime":"11:00","amenityFeature":[{"@type":"LocationFeatureSpecification","name":"Wi-Fi gratis","value":true},{"@type":"LocationFeatureSpecification","name":"Cocina compartida","value":true}]}
+</script>
+</head>
+<body>
+<div class="progress" id="progress"></div>
+
+<header id="header"><div class="wrap nav">
+  <a href="#inicio" class="brand" aria-label="Ganbara Hostel">
+    <svg class="mark" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="#103a24"/><rect x="7" y="7" width="6" height="20" fill="#2c7a49"/><rect x="15" y="7" width="4" height="20" fill="#ecc531"/><rect x="21" y="7" width="6" height="20" fill="#2c7a49"/></svg>
+    <span class="name">Ganbara<small data-i18n="brandSub">Hostel · Casco Viejo</small></span>
+  </a>
+  <nav class="menu" id="menu">
+    <a href="#casa" data-i18n="navCasa">La casa</a>
+    <a href="#habitaciones" data-i18n="navHab">Habitaciones</a>
+    <a href="#galeria" data-i18n="navGal">Galería</a>
+    <a href="#ubicacion" data-i18n="navUbi">Ubicación</a>
+    <a href="#reservar" class="btn btn-primary nav-cta" data-i18n="navRes">Reservar</a>
+  </nav>
+  <div class="langs" id="langs">
+    <button type="button" data-lang="es">ES</button>
+    <button type="button" data-lang="en">EN</button>
+  </div>
+  <button class="burger" id="burger" type="button" aria-label="Menú" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+</div></header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="hero-slides" id="heroSlides">
+    <div class="slide on" style="background-image:url('img/fachada.jpg');background-position:center 62%"></div>
+    <div class="slide" style="background-image:url('img/salon.jpg')"></div>
+    <div class="slide" style="background-image:url('img/dormitorio-literas.jpg')"></div>
+    <div class="slide" style="background-image:url('img/comedor-mural.jpg')"></div>
+  </div>
+  <div class="wrap"><div class="hero-inner">
+    <div class="eyebrow light" data-i18n="heroEye">Casco Viejo · Bilbao</div>
+    <h1 data-i18n="heroH1">Duerme en pleno <em>Casco Viejo</em> de Bilbao</h1>
+    <p data-i18n="heroP">Literas en habitaciones compartidas, cocina para hacerte lo tuyo y un salón grande para cuando vuelves de pintxos. Reserva directamente con nosotros.</p>
+    <div class="hero-cta">
+      <a href="#reservar" class="btn btn-primary" data-i18n="ctaDisp">Consultar disponibilidad</a>
+      <a href="#casa" class="btn btn-ghost" data-i18n="ctaCasa">Ver el hostel</a>
+    </div>
+    <div class="hero-badges">
+      <div class="hero-badge" data-i18n="badge1">📍 Prim 13, junto a la plaza Unamuno</div>
+      <div class="hero-badge" data-i18n="badge2">🔑 Self check-in desde las 15:00</div>
+      <div class="hero-badge" data-i18n="badge3">💬 Reserva directa por WhatsApp</div>
+    </div>
+  </div></div>
+  <div class="hero-dots" id="heroDots"></div>
+  <div class="scroll-hint" aria-hidden="true"><span data-i18n="scroll">Desliza</span><span>↓</span></div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
+
+<div class="stats"><div class="wrap stats-grid">
+  <div class="stat"><div class="num">4 min</div><div class="lbl" data-i18n="st1">Andando al metro Casco Viejo</div></div>
+  <div class="stat"><div class="num">15:00</div><div class="lbl" data-i18n="st2">Entrada con tu código</div></div>
+  <div class="stat"><div class="num">2 km</div><div class="lbl" data-i18n="st3">Al Guggenheim, junto a la ría</div></div>
+  <div class="stat"><div class="num">Wi-Fi</div><div class="lbl" data-i18n="st4">Gratis en todo el hostel</div></div>
+</div></div>
+
+<section class="pad" id="casa"><div class="wrap split">
+  <div class="copy reveal">
+    <div class="eyebrow" data-i18n="casaEye">El hostel</div>
+    <h2 data-i18n="casaH2">Tu casa en el <em>Casco Viejo</em></h2>
+    <p data-i18n="casaP1">Ganbara quiere decir «desván» en euskera. El nuestro está en la planta baja de Prim 13, a dos pasos de la plaza Unamuno: dormitorios con literas, cocina compartida, comedor y un salón grande para cuando vuelves de pintxos.</p>
+    <p data-i18n="casaP2">Funciona con self check-in. El día que llegas te mandamos el código y entras a partir de las 15:00, sin colas en recepción. Si necesitas algo, nos escribes por WhatsApp.</p>
+    <ul class="feature-list">
+      <li><i>✓</i> <span data-i18n="f1">Literas con ropa de cama</span></li>
+      <li><i>✓</i> <span data-i18n="f2">Taquilla para tus cosas</span></li>
+      <li><i>✓</i> <span data-i18n="f3">Cocina compartida</span></li>
+      <li><i>✓</i> <span data-i18n="f4">Comedor y salón</span></li>
+      <li><i>✓</i> <span data-i18n="f5">Wi-Fi gratis</span></li>
+      <li><i>✓</i> <span data-i18n="f6">Self check-in</span></li>
+    </ul>
+  </div>
+  <div class="imgs reveal">
+    <img src="img/salon.jpg" width="1280" height="853" loading="lazy" alt="Salón del Ganbara Hostel con sofás estampados y butacas de cuero" data-i18n-attr="alt:altSalon">
+    <img class="float" src="img/ilustracion-2.jpg" width="720" height="1280" loading="lazy" alt="Ilustración en blanco y negro en una pared del hostel" data-i18n-attr="alt:altIlus">
+  </div>
+</div></section>
+
+<section class="pad exterior" id="vistazo"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="visEye">Por dentro</div><h2 data-i18n="visH2">Un vistazo al Ganbara</h2><p data-i18n="visP">Fotos reales del hostel.</p></div>
+  <div class="show-grid reveal">
+    <figure class="big"><img src="img/fachada.jpg" loading="lazy" alt="Fachada del Ganbara Hostel en la calle Prim, con franjas verdes y amarillas" data-i18n-attr="alt:altFachada"><figcaption data-i18n="cap1">La entrada, en Prim 13</figcaption></figure>
+    <figure><img src="img/cocina.jpg" loading="lazy" alt="Cocina compartida con nevera, fogones y menaje" data-i18n-attr="alt:altCocina"><figcaption data-i18n="cap2">Cocina para todos</figcaption></figure>
+    <figure><img src="img/dormitorio-taquillas.jpg" loading="lazy" alt="Dormitorio con literas y taquillas azules y grises" data-i18n-attr="alt:altTaquillas"><figcaption data-i18n="cap3">Taquillas en el cuarto</figcaption></figure>
+    <figure><img src="img/rincon-trabajo.jpg" loading="lazy" alt="Rincón con sofás de cuero y barra junto a la ventana" data-i18n-attr="alt:altTrabajo"><figcaption data-i18n="cap4">Rincón para trabajar</figcaption></figure>
+    <figure><img src="img/comedor-sillas.jpg" loading="lazy" alt="Comedor con sillas de colores junto a la ventana" data-i18n-attr="alt:altSillas"><figcaption data-i18n="cap5">Mesas junto a la ventana</figcaption></figure>
+  </div>
+</div></section>
+
+<section class="parallax" style="background-image:url('img/comedor-mural.jpg')">
+  <div class="pq reveal">
+    <div class="eyebrow" data-i18n="parEye">La ubicación</div>
+    <h2 data-i18n="parH2">Sales por la puerta<br>y ya estás <em>de pintxos</em></h2>
+    <a href="#reservar" class="btn btn-primary" data-i18n="parBtn">Quiero una cama</a>
+  </div>
+</section>
+
+<section class="pad amen"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow light" data-i18n="servEye">Servicios</div><h2 data-i18n="servH2">Lo que tienes en el hostel</h2><p data-i18n="servP">Lo básico de un buen hostel, en el centro de Bilbao.</p></div>
+  <div class="amen-grid">
+    <div class="amen-card reveal"><div class="ico">📶</div><h4 data-i18n="s1t">Wi-Fi gratis</h4><p data-i18n="s1d">En todo el hostel, también en los dormitorios.</p></div>
+    <div class="amen-card reveal"><div class="ico">🍳</div><h4 data-i18n="s2t">Cocina compartida</h4><p data-i18n="s2d">Nevera, microondas y menaje para hacerte la cena.</p></div>
+    <div class="amen-card reveal"><div class="ico">🛏️</div><h4 data-i18n="s3t">Ropa de cama</h4><p data-i18n="s3d">Incluida. La cama te espera hecha.</p></div>
+    <div class="amen-card reveal"><div class="ico">🔒</div><h4 data-i18n="s4t">Taquillas</h4><p data-i18n="s4d">En los dormitorios, para dejar tus cosas tranquilo.</p></div>
+    <div class="amen-card reveal"><div class="ico">🛋️</div><h4 data-i18n="s5t">Salón</h4><p data-i18n="s5d">Sofás para descansar después de un día de calle.</p></div>
+    <div class="amen-card reveal"><div class="ico">🍽️</div><h4 data-i18n="s6t">Comedor</h4><p data-i18n="s6d">Mesas largas para cenar o preparar el día siguiente.</p></div>
+    <div class="amen-card reveal"><div class="ico">💻</div><h4 data-i18n="s7t">Rincón para trabajar</h4><p data-i18n="s7d">Barra junto a la ventana para el portátil.</p></div>
+    <div class="amen-card reveal"><div class="ico">🔑</div><h4 data-i18n="s8t">Self check-in</h4><p data-i18n="s8d">Entras con tu código a partir de las 15:00.</p></div>
+  </div>
+</div></section>
+
+<section class="pad" id="habitaciones"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="habEye">Habitaciones</div><h2 data-i18n="habH2">Elige dónde dormir</h2><p data-i18n="habP">Habitaciones compartidas con literas, para dormir en el centro de Bilbao sin pagar lo que cuesta un hotel.</p></div>
+  <div class="rooms-grid">
+    <div class="room-card reveal">
+      <div class="room-img"><img src="img/dormitorio-azul.jpg" loading="lazy" alt="Dormitorio mixto con literas y taquillas" data-i18n-attr="alt:altMixto"><span class="room-tag" data-i18n="r1tag">Literas</span></div>
+      <div class="room-body">
+        <h3 data-i18n="r1t">Dormitorio mixto</h3>
+        <p data-i18n="r1d">Literas con ropa de cama, taquilla para tus cosas y baño compartido. Un hostel de los de siempre, limpio y en pleno centro.</p>
+        <ul class="room-feats"><li data-i18n="r1f1">🛏️ Literas</li><li data-i18n="r1f2">🔒 Taquilla</li><li data-i18n="r1f3">🚿 Baño compartido</li></ul>
+        <div class="room-foot"><span class="room-price" data-i18n="price">Consúltanos<small>según fechas</small></span><button type="button" class="btn btn-primary room-btn" data-idx="0" data-i18n="btnRes">Reservar</button></div>
+      </div>
+    </div>
+    <div class="room-card reveal">
+      <div class="room-img"><img src="img/dormitorio.jpg" loading="lazy" alt="Dormitorio con literas, ropa de cama blanca y toallas" data-i18n-attr="alt:altMujeres"><span class="room-tag" data-i18n="r2tag">Solo mujeres</span></div>
+      <div class="room-body">
+        <h3 data-i18n="r2t">Dormitorio solo mujeres</h3>
+        <p data-i18n="r2d">Habitación de literas reservada para mujeres, con baño propio dentro de la habitación.</p>
+        <ul class="room-feats"><li data-i18n="r2f1">👩 Solo mujeres</li><li data-i18n="r2f2">🚿 Baño en el cuarto</li><li data-i18n="r2f3">🔒 Taquilla</li></ul>
+        <div class="room-foot"><span class="room-price" data-i18n="price">Consúltanos<small>según fechas</small></span><button type="button" class="btn btn-primary room-btn" data-idx="1" data-i18n="btnRes">Reservar</button></div>
+      </div>
+    </div>
+    <div class="room-card reveal">
+      <div class="room-img"><img src="img/dormitorio-literas.jpg" loading="lazy" alt="Dormitorio con varias literas para grupos" data-i18n-attr="alt:altGrupos"><span class="room-tag" data-i18n="r3tag">Grupos</span></div>
+      <div class="room-body">
+        <h3 data-i18n="r3t">Grupos</h3>
+        <p data-i18n="r3d">Equipos, excursiones, cuadrillas. Escríbenos con fechas y número de personas y te confirmamos por escrito cuántas camas te guardamos.</p>
+        <ul class="room-feats"><li data-i18n="r3f1">👥 Grupos grandes</li><li data-i18n="r3f2">🍽️ Comedor amplio</li><li data-i18n="r3f3">✍️ Confirmación por escrito</li></ul>
+        <div class="room-foot"><span class="room-price" data-i18n="price">Consúltanos<small>según fechas</small></span><button type="button" class="btn btn-primary room-btn" data-idx="2" data-i18n="btnProp">Pedir propuesta</button></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section class="pad exterior" id="galeria"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="galEye">Galería</div><h2 data-i18n="galH2">Mira cada rincón</h2><p data-i18n="galP">Toca una foto para verla en grande.</p></div>
+  <div class="gallery-grid reveal" id="gallery">
+    <button type="button"><img src="img/fachada.jpg" width="1800" height="1952" loading="lazy" alt="Fachada del Ganbara Hostel en la calle Prim" data-i18n-attr="alt:altFachada"></button>
+    <button type="button"><img src="img/salon.jpg" width="1280" height="853" loading="lazy" alt="Salón con sofás estampados y butacas de cuero" data-i18n-attr="alt:altSalon"></button>
+    <button type="button"><img src="img/comedor-mural.jpg" width="1800" height="1285" loading="lazy" alt="Comedor con mesas largas y un mural de colores" data-i18n-attr="alt:altMural"></button>
+    <button type="button"><img src="img/dormitorio-azul.jpg" width="1280" height="853" loading="lazy" alt="Dormitorio mixto con literas y taquillas" data-i18n-attr="alt:altMixto"></button>
+    <button type="button"><img src="img/ilustracion-3.jpg" width="720" height="1280" loading="lazy" alt="Ilustración en blanco y negro en una pared del hostel" data-i18n-attr="alt:altIlus"></button>
+    <button type="button"><img src="img/cocina.jpg" width="1800" height="1201" loading="lazy" alt="Cocina compartida con nevera, fogones y menaje" data-i18n-attr="alt:altCocina"></button>
+    <button type="button"><img src="img/dormitorio.jpg" width="1800" height="1201" loading="lazy" alt="Dormitorio con literas, ropa de cama blanca y toallas" data-i18n-attr="alt:altMujeres"></button>
+    <button type="button"><img src="img/comedor-sillas.jpg" width="1428" height="2000" loading="lazy" alt="Comedor con sillas de colores junto a la ventana" data-i18n-attr="alt:altSillas"></button>
+    <button type="button"><img src="img/rincon-trabajo.jpg" width="1800" height="1285" loading="lazy" alt="Rincón con sofás de cuero y barra junto a la ventana" data-i18n-attr="alt:altTrabajo"></button>
+    <button type="button"><img src="img/dormitorio-literas.jpg" width="1280" height="853" loading="lazy" alt="Dormitorio con varias literas" data-i18n-attr="alt:altGrupos"></button>
+    <button type="button"><img src="img/cocina-menaje.jpg" width="854" height="1280" loading="lazy" alt="Estanterías de la cocina con platos, tazas y microondas" data-i18n-attr="alt:altMenaje"></button>
+    <button type="button"><img src="img/dormitorio-taquillas.jpg" width="1280" height="853" loading="lazy" alt="Dormitorio con literas y taquillas azules y grises" data-i18n-attr="alt:altTaquillas"></button>
+    <button type="button"><img src="img/ilustracion-2.jpg" width="720" height="1280" loading="lazy" alt="Ilustración en blanco y negro en una pared del hostel" data-i18n-attr="alt:altIlus"></button>
+  </div>
+</div></section>
+
+<section class="pad loc on-dark" id="ubicacion"><div class="wrap loc-grid">
+  <div class="loc-copy reveal">
+    <div class="eyebrow" data-i18n="ubiEye">Ubicación</div>
+    <h2 data-i18n="ubiH2">En pleno Casco Viejo, junto a la plaza Unamuno</h2>
+    <p data-i18n="ubiP">El centro de Bilbao se recorre a pie desde la puerta. Museos, bares de pintxos y la ría, todo andando.</p>
+    <ul class="near">
+      <li><b data-i18n="c1">Museo de Pasos</b><span>140 m</span></li>
+      <li><b data-i18n="c2">Plaza Unamuno</b><span>230 m</span></li>
+      <li><b data-i18n="c3">Euskal Museoa (Museo Vasco)</b><span>230 m</span></li>
+      <li><b data-i18n="c4">Plaza Nueva</b><span>330 m</span></li>
+      <li><b data-i18n="c5">Catedral de Santiago</b><span>460 m</span></li>
+      <li><b data-i18n="c6">Metro Casco Viejo</b><span data-i18n="c6v">4 min a pie</span></li>
+      <li><b data-i18n="c7">Museo Guggenheim</b><span>2 km</span></li>
+    </ul>
+    <p class="addr"><strong data-i18n="addrLbl">Dirección:</strong> Prim Kalea, 13 (bajo), 48006 Bilbao</p>
+    <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Ganbara+Hostel%2C+Prim+Kalea+13%2C+48006+Bilbao" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="ubiBtn">Cómo llegar</a>
+  </div>
+  <div class="loc-map reveal">
+    <iframe title="Mapa: Ganbara Hostel en Prim Kalea 13, Bilbao" data-i18n-attr="title:mapTitle" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.9262%2C43.2552%2C-2.9113%2C43.2617&amp;layer=mapnik&amp;marker=43.25847%2C-2.91878"></iframe>
+  </div>
+</div></section>
+
+<section class="pad zona" id="zona"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="zonaEye">Alrededor</div><h2 data-i18n="zonaH2">Qué hacer cerca del <em>hostel</em></h2><p data-i18n="zonaP">Lo mejor de Bilbao queda a un paseo de la puerta.</p></div>
+  <div class="zona-grid">
+    <div class="zona-card reveal"><div class="znum">01</div><h4 data-i18n="z1t">Plaza Nueva y las Siete Calles</h4><p data-i18n="z1d">El corazón del Casco Viejo: soportales, bares de pintxos y ambiente a cualquier hora.</p><div class="ztag" data-i18n="z1tag">A 330 m</div></div>
+    <div class="zona-card reveal"><div class="znum">02</div><h4 data-i18n="z2t">Museo Vasco y Museo de Pasos</h4><p data-i18n="z2d">Dos museos a menos de 250 m para conocer la historia de Bilbao y de Bizkaia.</p><div class="ztag" data-i18n="z2tag">A 230 m</div></div>
+    <div class="zona-card reveal"><div class="znum">03</div><h4 data-i18n="z3t">Catedral de Santiago</h4><p data-i18n="z3d">La catedral gótica de Bilbao, en pleno Casco Viejo y a cinco minutos andando.</p><div class="ztag" data-i18n="z3tag">A 460 m</div></div>
+    <div class="zona-card reveal"><div class="znum">04</div><h4 data-i18n="z4t">Mercado de la Ribera</h4><p data-i18n="z4d">El mercado de abastos de Bilbao, junto a la ría, con puestos de producto local y barra de pintxos.</p><div class="ztag" data-i18n="z4tag">Unos 10 min a pie</div></div>
+    <div class="zona-card reveal"><div class="znum">05</div><h4 data-i18n="z5t">Museo Guggenheim</h4><p data-i18n="z5d">Un paseo por la orilla de la ría hasta el museo de Frank Gehry y el Puppy.</p><div class="ztag" data-i18n="z5tag">2 km a pie</div></div>
+    <div class="zona-card reveal"><div class="znum">06</div><h4 data-i18n="z6t">Funicular de Artxanda</h4><p data-i18n="z6d">Sube al monte Artxanda para ver todo Bilbao desde arriba, sobre todo al atardecer.</p><div class="ztag" data-i18n="z6tag">Unos 20 min a pie</div></div>
+  </div>
+</div></section>
+
+<section class="pad" id="llegada"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="llEye">Self check-in</div><h2 data-i18n="llH2">Cómo es la llegada</h2><p data-i18n="llP">Entras con tu código a partir de las 15:00, llegues a la hora que llegues.</p></div>
+  <ol class="steps">
+    <li class="reveal"><h3 data-i18n="p1t">Reservas</h3><p data-i18n="p1">Por WhatsApp, por teléfono o con el formulario de esta página. Te confirmamos la reserva por escrito.</p></li>
+    <li class="reveal"><h3 data-i18n="p2t">Recibes tu código</h3><p data-i18n="p2">El día de llegada te mandamos las instrucciones de entrada y el código de acceso.</p></li>
+    <li class="reveal"><h3 data-i18n="p3t">Entras cuando llegues</h3><p data-i18n="p3">A partir de las 15:00. Sin colas ni esperas en recepción.</p></li>
+  </ol>
+  <div class="io-grid">
+    <div class="io-card reveal"><div class="ico">🔑</div><h3 data-i18n="ciInT">Llegada (check-in)</h3><p data-i18n="ciInP">A partir de las 15:00. ¿Algo no funciona al llegar? Escríbenos por WhatsApp al <a href="https://wa.me/34645667001" target="_blank" rel="noopener">645 66 70 01</a> y te lo solucionamos.</p></div>
+    <div class="io-card reveal"><div class="ico">🧳</div><h3 data-i18n="ciOutT">Salida (check-out)</h3><p data-i18n="ciOutP">El último día, deja la cama libre antes de las 11:00. Si necesitas guardar la maleta unas horas, pregúntanos.</p></div>
+  </div>
+</div></section>
+
+<section class="pad faq-sec" id="faq"><div class="wrap">
+  <div class="section-head center reveal"><div class="eyebrow" data-i18n="faqEye">Antes de venir</div><h2 data-i18n="faqH2">Preguntas frecuentes</h2></div>
+  <div class="faq-list reveal">
+    <details class="faq"><summary><span data-i18n="q1">¿A qué hora puedo entrar y salir?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a1">La entrada es a partir de las 15:00 y la salida, hasta las 11:00.</div></details>
+    <details class="faq"><summary><span data-i18n="q2">¿Hay alguien en recepción?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a2">El hostel funciona con self check-in: entras con el código que te mandamos el día de llegada. Para cualquier cosa, antes o durante la estancia, escríbenos al WhatsApp 645 66 70 01.</div></details>
+    <details class="faq"><summary><span data-i18n="q3">¿Está incluida la ropa de cama?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a3">Sí, la cama está hecha cuando llegas. Si necesitas toalla, dínoslo al reservar.</div></details>
+    <details class="faq"><summary><span data-i18n="q4">¿Puedo cocinar?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a4">Sí. Hay cocina compartida y comedor para todos los huéspedes.</div></details>
+    <details class="faq"><summary><span data-i18n="q5">¿Puedo dejar la maleta antes de entrar o después de salir?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a5">Escríbenos con tu hora de llegada o de salida y te decimos si te la podemos guardar.</div></details>
+    <details class="faq"><summary><span data-i18n="q6">¿Hay aparcamiento?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a6">No tenemos aparcamiento propio. Lo más cómodo es dejar el coche en un parking público y venir andando.</div></details>
+    <details class="faq"><summary><span data-i18n="q7">¿Aceptáis grupos?</span><span class="pl">+</span></summary><div class="ans" data-i18n="a7">Sí. Escríbenos con las fechas y el número de personas y te confirmamos por escrito cuántas camas te guardamos.</div></details>
+  </div>
+</div></section>
+
+<section class="pad" id="reservar"><div class="wrap contact-grid">
+  <div class="contact-info reveal">
+    <div class="eyebrow" data-i18n="resEye">Reservas</div>
+    <h2 data-i18n="resH2">Reserva directa, <em>sin intermediarios</em></h2>
+    <p data-i18n="resP">Elige tus fechas y te contestamos por WhatsApp con precio y disponibilidad. Sin compromiso.</p>
+    <ul class="ci-list">
+      <li><div class="ico">📞</div><div><b data-i18n="ciTel">Teléfono</b><a href="tel:+34645667001">+34 645 66 70 01</a></div></li>
+      <li><div class="ico">💬</div><div><b>WhatsApp</b><a href="https://wa.me/34645667001" target="_blank" rel="noopener">+34 645 66 70 01</a></div></li>
+      <li><div class="ico">📍</div><div><b data-i18n="ciDir">Dirección</b><span>Prim Kalea, 13 (bajo), 48006 Bilbao</span></div></li>
+    </ul>
+    <a href="https://wa.me/34645667001" target="_blank" rel="noopener" class="btn btn-wa" id="waDirect" data-i18n="btnWa">💬 Escríbenos por WhatsApp</a>
+  </div>
+  <form class="form reveal" id="bookForm" novalidate>
+    <h3 data-i18n="formH3">¿Te guardamos una cama?</h3>
+    <p class="sub" data-i18n="formSub">Marca la llegada y la salida en el calendario.</p>
+    <div class="bk-cal">
+      <div class="bk-cal-head">
+        <button type="button" class="bk-nav" id="bkPrev" aria-label="Mes anterior" data-i18n-attr="aria-label:prevMonth">‹</button>
+        <div class="bk-cal-title" id="bkTitle" aria-live="polite">—</div>
+        <button type="button" class="bk-nav" id="bkNext" aria-label="Mes siguiente" data-i18n-attr="aria-label:nextMonth">›</button>
+      </div>
+      <div class="bk-dow" id="bkDow"></div>
+      <div class="bk-grid" id="bkGrid"></div>
+    </div>
+    <div class="bk-summary">
+      <div><span id="bkInfo">Elige el día de llegada</span> <button type="button" class="bk-clear" id="bkClear" data-i18n="clear">borrar</button></div>
+      <div class="bk-nights" id="bkNights"></div>
+    </div>
+    <div class="field"><label for="nombre" data-i18n="lblNombre">Tu nombre</label><input type="text" id="nombre" autocomplete="given-name" required></div>
+    <div class="field-row">
+      <div class="field"><label for="habitacion" data-i18n="lblHab">Habitación</label><select id="habitacion"><option value="mixto" data-i18n="optMixto">Dormitorio mixto</option><option value="mujeres" data-i18n="optMujeres">Dormitorio solo mujeres</option><option value="grupo" data-i18n="optGrupo">Grupo</option></select></div>
+      <div class="field"><label for="personas" data-i18n="lblPers">Personas</label><select id="personas"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option value="9+" data-i18n="opt9">9 o más</option></select></div>
+    </div>
+    <div class="field"><label for="msg" data-i18n="lblMsg">Mensaje (opcional)</label><textarea id="msg" rows="2"></textarea></div>
+    <button type="submit" class="btn btn-primary" data-i18n="btnSubmit">Consultar disponibilidad por WhatsApp</button>
+    <p class="form-err" id="formErr" role="alert"></p>
+    <p class="form-note" data-i18n="formNote">Sin compromiso · Te contestamos con precio y disponibilidad</p>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="foot-grid">
+    <div class="foot-brand"><div class="name"><svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><rect width="34" height="34" rx="8" fill="#1a5636"/><rect x="7" y="7" width="6" height="20" fill="#2c7a49"/><rect x="15" y="7" width="4" height="20" fill="#ecc531"/><rect x="21" y="7" width="6" height="20" fill="#2c7a49"/></svg>Ganbara Hostel</div><p data-i18n="footP">Hostel en el Casco Viejo de Bilbao. Literas, cocina compartida y self check-in, a un paseo de todo.</p></div>
+    <div class="foot-col"><h5 data-i18n="footExp">Explora</h5><a href="#casa" data-i18n="navCasa">La casa</a><a href="#habitaciones" data-i18n="navHab">Habitaciones</a><a href="#galeria" data-i18n="navGal">Galería</a><a href="#ubicacion" data-i18n="navUbi">Ubicación</a></div>
+    <div class="foot-col"><h5 data-i18n="footCon">Contacto</h5><a href="tel:+34645667001">+34 645 66 70 01</a><a href="https://wa.me/34645667001" target="_blank" rel="noopener">WhatsApp</a><span>Prim Kalea, 13 · 48006 Bilbao</span></div>
+  </div>
+  <div class="foot-bottom"><span>© 2026 Ganbara Hostel · Bilbao</span><span data-i18n="footIn">Entrada 15:00 · Salida 11:00</span></div>
+</div></footer>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Cerrar" data-i18n-attr="aria-label:close">×</button>
+  <button type="button" class="lb-nav lb-prev" id="lbPrev" aria-label="Anterior" data-i18n-attr="aria-label:prev">‹</button>
+  <img id="lbImg" src="" alt="">
+  <button type="button" class="lb-nav lb-next" id="lbNext" aria-label="Siguiente" data-i18n-attr="aria-label:next">›</button>
+  <div class="lb-count" id="lbCount"></div>
+</div>
+
+<script>
+(function(){
+  'use strict';
+  const WA='34645667001';
+  const $=id=>document.getElementById(id);
+
+  // ---------- Textos en inglés (el español va en el HTML) ----------
+  const EN={
+    brandSub:'Hostel · Old Town',navCasa:'The hostel',navHab:'Rooms',navGal:'Gallery',navUbi:'Location',navRes:'Book',
+    heroEye:'Old Town · Bilbao',heroH1:'Sleep right in Bilbao’s <em>Old Town</em>',
+    heroP:'Bunk beds in shared rooms, a kitchen to cook your own food and a big lounge for when you get back from pintxos. Book directly with us.',
+    ctaDisp:'Check availability',ctaCasa:'See the hostel',
+    badge1:'📍 Prim 13, next to Plaza Unamuno',badge2:'🔑 Self check-in from 3 pm',badge3:'💬 Book direct on WhatsApp',scroll:'Scroll',
+    st1:'Walk to Casco Viejo metro',st2:'Check-in with your code',st3:'To the Guggenheim, along the river',st4:'Free all over the hostel',
+    casaEye:'The hostel',casaH2:'Your home in the <em>Old Town</em>',
+    casaP1:'Ganbara means “attic” in Basque. Ours is on the ground floor of Prim 13, a short walk from Plaza Unamuno: bunk-bed dorms, a shared kitchen, a dining room and a big lounge for when you get back from pintxos.',
+    casaP2:'It runs on self check-in. On your arrival day we send you the code and you let yourself in from 3 pm, no queues at reception. If you need anything, message us on WhatsApp.',
+    f1:'Bunk beds with linen',f2:'A locker for your things',f3:'Shared kitchen',f4:'Dining room and lounge',f5:'Free Wi-Fi',f6:'Self check-in',
+    altSalon:'Ganbara Hostel lounge with patterned sofas and leather armchairs',altIlus:'Black and white illustration on a wall of the hostel',
+    visEye:'Inside',visH2:'A look inside Ganbara',visP:'Real photos of the hostel.',
+    altFachada:'Front of Ganbara Hostel on Prim street, with green and yellow stripes',altCocina:'Shared kitchen with fridge, hobs and kitchenware',
+    altTaquillas:'Dorm with bunk beds and blue and grey lockers',altTrabajo:'Corner with leather sofas and a counter by the window',altSillas:'Dining room with colourful chairs by the window',
+    altMural:'Dining room with long tables and a colourful mural',altMixto:'Mixed dorm with bunk beds and lockers',altMujeres:'Dorm with bunk beds, white bed linen and towels',
+    altGrupos:'Dorm with several bunk beds',altMenaje:'Kitchen shelves with plates, mugs and microwaves',
+    cap1:'The entrance, at Prim 13',cap2:'A kitchen for everyone',cap3:'Lockers in your room',cap4:'A corner to work',cap5:'Tables by the window',
+    parEye:'The location',parH2:'Step out of the door<br>and you’re <em>out for pintxos</em>',parBtn:'I want a bed',
+    servEye:'Facilities',servH2:'What you get at the hostel',servP:'The basics of a good hostel, in the centre of Bilbao.',
+    s1t:'Free Wi-Fi',s1d:'All over the hostel, dorms included.',s2t:'Shared kitchen',s2d:'Fridge, microwaves and kitchenware to cook your dinner.',
+    s3t:'Bed linen',s3d:'Included. Your bed is made when you arrive.',s4t:'Lockers',s4d:'In the dorms, so your things are safe.',
+    s5t:'Lounge',s5d:'Sofas to rest after a day out in the city.',s6t:'Dining room',s6d:'Long tables to have dinner or plan the next day.',
+    s7t:'A corner to work',s7d:'A counter by the window for your laptop.',s8t:'Self check-in',s8d:'You let yourself in with your code from 3 pm.',
+    habEye:'Rooms',habH2:'Choose where to sleep',habP:'Shared rooms with bunk beds, so you can sleep in central Bilbao without paying hotel prices.',
+    r1tag:'Bunk beds',r1t:'Mixed dorm',r1d:'Bunk beds with linen, a locker for your things and a shared bathroom. A proper hostel, clean and right in the centre.',
+    r1f1:'🛏️ Bunk beds',r1f2:'🔒 Locker',r1f3:'🚿 Shared bathroom',
+    r2tag:'Women only',r2t:'Female-only dorm',r2d:'A bunk room just for women, with its own bathroom inside the room.',
+    r2f1:'👩 Women only',r2f2:'🚿 Bathroom in the room',r2f3:'🔒 Locker',
+    r3tag:'Groups',r3t:'Groups',r3d:'Teams, school trips, groups of friends. Send us your dates and numbers and we’ll confirm in writing how many beds we hold for you.',
+    r3f1:'👥 Large groups',r3f2:'🍽️ Roomy dining room',r3f3:'✍️ Written confirmation',
+    price:'Ask us<small>depends on dates</small>',btnRes:'Book',btnProp:'Ask for a quote',
+    galEye:'Gallery',galH2:'See every corner',galP:'Tap a photo to see it bigger.',
+    ubiEye:'Location',ubiH2:'Right in the Old Town, next to Plaza Unamuno',ubiP:'You can walk all of central Bilbao from the door. Museums, pintxo bars and the river, all on foot.',
+    c1:'Holy Week Museum (Museo de Pasos)',c2:'Plaza Unamuno',c3:'Basque Museum (Euskal Museoa)',c4:'Plaza Nueva',c5:'Santiago Cathedral',c6:'Casco Viejo metro',c6v:'4 min walk',c7:'Guggenheim Museum',
+    addrLbl:'Address:',ubiBtn:'Get directions',mapTitle:'Map: Ganbara Hostel at Prim Kalea 13, Bilbao',
+    zonaEye:'Around',zonaH2:'Things to do near the <em>hostel</em>',zonaP:'The best of Bilbao is a short walk from the door.',
+    z1t:'Plaza Nueva and the Seven Streets',z1d:'The heart of the Old Town: arcades, pintxo bars and a lively atmosphere at any time.',z1tag:'330 m away',
+    z2t:'Basque Museum and Holy Week Museum',z2d:'Two museums less than 250 m away to learn the history of Bilbao and Bizkaia.',z2tag:'230 m away',
+    z3t:'Santiago Cathedral',z3d:'Bilbao’s Gothic cathedral, in the middle of the Old Town and five minutes on foot.',z3tag:'460 m away',
+    z4t:'La Ribera Market',z4d:'Bilbao’s food market by the river, with local produce stalls and a pintxo bar.',z4tag:'About 10 min walk',
+    z5t:'Guggenheim Museum',z5d:'A walk along the river to Frank Gehry’s museum and Puppy.',z5tag:'2 km walk',
+    z6t:'Artxanda Funicular',z6d:'Ride up Mount Artxanda to see all of Bilbao from above, best at sunset.',z6tag:'About 20 min walk',
+    llEye:'Self check-in',llH2:'How arrival works',llP:'You let yourself in with your code from 3 pm, whatever time you arrive.',
+    p1t:'You book',p1:'On WhatsApp, by phone or with the form on this page. We confirm your booking in writing.',
+    p2t:'You get your code',p2:'On your arrival day we send you the entry instructions and your access code.',
+    p3t:'Come in when you arrive',p3:'From 3 pm. No queues or waiting at reception.',
+    ciInT:'Arrival (check-in)',ciInP:'From 3 pm. Something not working when you arrive? Message us on WhatsApp at <a href="https://wa.me/34645667001" target="_blank" rel="noopener">+34 645 66 70 01</a> and we’ll sort it out.',
+    ciOutT:'Departure (check-out)',ciOutP:'On your last day, please leave your bed by 11 am. If you need to keep your luggage for a few hours, just ask.',
+    faqEye:'Before you come',faqH2:'Frequently asked questions',
+    q1:'What time can I check in and out?',a1:'Check-in is from 3 pm and check-out is by 11 am.',
+    q2:'Is there someone at reception?',a2:'The hostel runs on self check-in: you get in with the code we send you on your arrival day. For anything before or during your stay, message us on WhatsApp at +34 645 66 70 01.',
+    q3:'Is bed linen included?',a3:'Yes, your bed is made when you arrive. If you need a towel, let us know when you book.',
+    q4:'Can I cook?',a4:'Yes. There is a shared kitchen and a dining room for all guests.',
+    q5:'Can I leave my luggage before check-in or after check-out?',a5:'Send us your arrival or departure time and we’ll tell you if we can keep it for you.',
+    q6:'Is there parking?',a6:'We don’t have our own parking. The easiest thing is to leave the car in a public car park and walk over.',
+    q7:'Do you take groups?',a7:'Yes. Send us your dates and numbers and we’ll confirm in writing how many beds we hold for you.',
+    resEye:'Bookings',resH2:'Book direct, <em>no middlemen</em>',resP:'Choose your dates and we’ll reply on WhatsApp with price and availability. No commitment.',
+    ciTel:'Phone',ciDir:'Address',btnWa:'💬 Message us on WhatsApp',
+    formH3:'Shall we keep you a bed?',formSub:'Mark your check-in and check-out on the calendar.',
+    prevMonth:'Previous month',nextMonth:'Next month',clear:'clear',
+    lblNombre:'Your name',lblHab:'Room',lblPers:'Guests',optMixto:'Mixed dorm',optMujeres:'Female-only dorm',optGrupo:'Group',opt9:'9 or more',
+    lblMsg:'Message (optional)',btnSubmit:'Check availability on WhatsApp',formNote:'No commitment · We reply with price and availability',
+    footP:'Hostel in Bilbao’s Old Town. Bunk beds, shared kitchen and self check-in, a short walk from everything.',footExp:'Explore',footCon:'Contact',footIn:'Check-in 3 pm · Check-out 11 am',
+    close:'Close',prev:'Previous',next:'Next'
+  };
+  const UI={
+    es:{title:document.title,selIn:'Elige el día de llegada',selPre:'Llegada: ',selPost:' · elige la salida',nS:'noche',nP:'noches',
+        needDates:'Marca en el calendario el día de llegada y el de salida.',needName:'Dinos tu nombre para saber quién escribe.',
+        months:['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'],
+        mshort:['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'],dow:['dom','lun','mar','mié','jue','vie','sáb'],dowhead:['L','M','X','J','V','S','D'],
+        marquee:['Casco Viejo de Bilbao','Self check-in','Cocina compartida','Wi-Fi gratis','Junto a la plaza Unamuno','Reserva directa'],
+        waHola:'Hola, quiero consultar disponibilidad en el Ganbara Hostel.',waNom:'Nombre',waIn:'Llegada',waOut:'Salida',waN:'Noches',waHab:'Habitación',waPer:'Personas',waMsg:'Mensaje',
+        waDirect:'Hola, quiero información sobre el Ganbara Hostel.'},
+    en:{title:'Ganbara Hostel · Hostel in Bilbao’s Old Town',selIn:'Choose your check-in day',selPre:'Check-in: ',selPost:' · now choose check-out',nS:'night',nP:'nights',
+        needDates:'Mark your check-in and check-out days on the calendar.',needName:'Tell us your name so we know who is writing.',
+        months:['January','February','March','April','May','June','July','August','September','October','November','December'],
+        mshort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],dow:['Sun','Mon','Tue','Wed','Thu','Fri','Sat'],dowhead:['M','T','W','T','F','S','S'],
+        marquee:['Bilbao Old Town','Self check-in','Shared kitchen','Free Wi-Fi','Next to Plaza Unamuno','Book direct'],
+        waHola:'Hi, I’d like to check availability at Ganbara Hostel.',waNom:'Name',waIn:'Check-in',waOut:'Check-out',waN:'Nights',waHab:'Room',waPer:'Guests',waMsg:'Message',
+        waDirect:'Hi, I’d like some information about Ganbara Hostel.'}
+  };
+
+  // Guardar el español original de cada texto
+  const ES={},ESA=[];
+  document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;if(!(k in ES))ES[k]=el.innerHTML;});
+  document.querySelectorAll('[data-i18n-attr]').forEach(el=>{el.dataset.i18nAttr.split(';').forEach(p=>{const[a,k]=p.split(':');ESA.push([el,a,k,el.getAttribute(a)]);});});
+
+  let LANG='es';
+  try{LANG=localStorage.getItem('ganbara_lang')||'';}catch(e){LANG='';}
+  if(LANG!=='es'&&LANG!=='en'){const nl=(navigator.language||'es').toLowerCase();LANG=/^(es|eu|ca|gl)/.test(nl)?'es':'en';}
+  const U=()=>UI[LANG];
+
+  function applyLang(){
+    document.documentElement.lang=LANG;document.title=U().title;
+    document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.dataset.i18n;const v=LANG==='en'?EN[k]:ES[k];if(v!=null)el.innerHTML=v;});
+    ESA.forEach(([el,a,k,orig])=>{el.setAttribute(a,LANG==='en'&&EN[k]!=null?EN[k]:orig);});
+    document.querySelectorAll('#langs button').forEach(b=>b.classList.toggle('on',b.dataset.lang===LANG));
+    $('waDirect').href='https://wa.me/'+WA+'?text='+encodeURIComponent(U().waDirect);
+    fillMarquee();renderDow();render();sync();
+  }
+  document.querySelectorAll('#langs button').forEach(b=>b.addEventListener('click',()=>{LANG=b.dataset.lang;try{localStorage.setItem('ganbara_lang',LANG);}catch(e){}applyLang();}));
+
+  // ---------- Cabecera, menú y barra de progreso ----------
+  const header=$('header'),bar=$('progress');
+  function onScroll(){header.classList.toggle('scrolled',scrollY>40);const h=document.documentElement.scrollHeight-innerHeight;bar.style.width=(h>0?scrollY/h*100:0)+'%';}
+  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  const burger=$('burger'),menu=$('menu');
+  function setMenu(open){menu.classList.toggle('open',open);burger.classList.toggle('open',open);burger.setAttribute('aria-expanded',open);}
+  burger.addEventListener('click',()=>setMenu(!menu.classList.contains('open')));
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>setMenu(false)));
+  addEventListener('keydown',e=>{if(e.key==='Escape')setMenu(false);});
+
+  // ---------- Aparición al hacer scroll ----------
+  if('IntersectionObserver' in window){
+    const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+  }else document.querySelectorAll('.reveal').forEach(el=>el.classList.add('in'));
+
+  // ---------- Portada: fotos que van cambiando ----------
+  const slides=[...document.querySelectorAll('#heroSlides .slide')],dots=$('heroDots');let cur=0,timer;
+  slides.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Foto '+(i+1));b.addEventListener('click',()=>{go(i);restart();});dots.appendChild(b);});
+  function go(i){slides[cur].classList.remove('on');dots.children[cur].classList.remove('on');cur=(i+slides.length)%slides.length;
+    const s=slides[cur];s.classList.remove('on');void s.offsetWidth;s.classList.add('on');dots.children[cur].classList.add('on');}
+  function restart(){clearInterval(timer);timer=setInterval(()=>go(cur+1),6500);}
+  dots.children[0].classList.add('on');
+  if(!matchMedia('(prefers-reduced-motion: reduce)').matches)restart();
+
+  // ---------- Franja amarilla ----------
+  function fillMarquee(){const items=U().marquee.map(t=>`<span>${t} <i>●</i></span>`).join('');$('marquee').innerHTML=items+items+items+items;}
+
+  // ---------- Visor de fotos ----------
+  const gimgs=[...document.querySelectorAll('#gallery img')],lb=$('lightbox'),lbImg=$('lbImg'),lbCount=$('lbCount');let li=0;
+  function show(i){li=(i+gimgs.length)%gimgs.length;lbImg.src=gimgs[li].src;lbImg.alt=gimgs[li].alt;lbCount.textContent=(li+1)+' / '+gimgs.length;}
+  function openLb(i){show(i);lb.classList.add('open');document.body.style.overflow='hidden';$('lbClose').focus();}
+  function closeLb(){lb.classList.remove('open');document.body.style.overflow='';}
+  gimgs.forEach((img,i)=>img.parentElement.addEventListener('click',()=>openLb(i)));
+  $('lbClose').addEventListener('click',closeLb);$('lbPrev').addEventListener('click',()=>show(li-1));$('lbNext').addEventListener('click',()=>show(li+1));
+  lb.addEventListener('click',e=>{if(e.target===lb)closeLb();});
+  addEventListener('keydown',e=>{if(!lb.classList.contains('open'))return;if(e.key==='Escape')closeLb();if(e.key==='ArrowLeft')show(li-1);if(e.key==='ArrowRight')show(li+1);});
+  let tx=null;lb.addEventListener('touchstart',e=>{tx=e.touches[0].clientX;},{passive:true});
+  lb.addEventListener('touchend',e=>{if(tx==null)return;const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50)show(li+(d<0?1:-1));tx=null;});
+
+  // ---------- Calendario de reserva ----------
+  const grid=$('bkGrid'),titleEl=$('bkTitle'),infoEl=$('bkInfo'),nightsEl=$('bkNights'),prevBtn=$('bkPrev'),nextBtn=$('bkNext'),clearBtn=$('bkClear'),errEl=$('formErr');
+  const today=new Date();today.setHours(0,0,0,0);
+  let view=new Date(today.getFullYear(),today.getMonth(),1),checkIn=null,checkOut=null;
+  const dmy=d=>`${String(d.getDate()).padStart(2,'0')}/${String(d.getMonth()+1).padStart(2,'0')}/${d.getFullYear()}`;
+  const pretty=d=>`${U().dow[d.getDay()]} ${d.getDate()} ${U().mshort[d.getMonth()]}`;
+  const same=(a,b)=>a&&b&&a.getTime()===b.getTime();
+  const nights=()=>Math.round((checkOut-checkIn)/86400000);
+  function renderDow(){$('bkDow').innerHTML=U().dowhead.map(x=>`<span>${x}</span>`).join('');}
+  function render(){
+    titleEl.textContent=`${U().months[view.getMonth()]} ${view.getFullYear()}`;
+    prevBtn.disabled=(view.getFullYear()===today.getFullYear()&&view.getMonth()===today.getMonth());
+    grid.innerHTML='';
+    const offset=(new Date(view.getFullYear(),view.getMonth(),1).getDay()+6)%7;
+    const dim=new Date(view.getFullYear(),view.getMonth()+1,0).getDate();
+    for(let i=0;i<offset;i++){const e=document.createElement('span');e.className='bk-day bk-empty';grid.appendChild(e);}
+    for(let d=1;d<=dim;d++){
+      const date=new Date(view.getFullYear(),view.getMonth(),d);
+      const c=document.createElement('button');c.type='button';c.className='bk-day';c.textContent=d;
+      if(date<today)c.disabled=true;
+      else{
+        if(same(date,today))c.classList.add('bk-today');
+        if(same(date,checkIn))c.classList.add('bk-in');
+        if(same(date,checkOut))c.classList.add('bk-out');
+        if(checkIn&&checkOut&&date>checkIn&&date<checkOut)c.classList.add('bk-range');
+        c.addEventListener('click',()=>pick(date));
+      }
+      grid.appendChild(c);
+    }
+  }
+  function pick(date){
+    if(!checkIn||checkOut){checkIn=date;checkOut=null;}
+    else if(date>checkIn)checkOut=date;
+    else{checkIn=date;checkOut=null;}
+    errEl.textContent='';sync();render();
+  }
+  function sync(){
+    if(checkIn&&checkOut){const n=nights();infoEl.textContent=`${pretty(checkIn)} → ${pretty(checkOut)}`;nightsEl.textContent=n+' '+(n===1?U().nS:U().nP);}
+    else if(checkIn){infoEl.textContent=U().selPre+pretty(checkIn)+U().selPost;nightsEl.textContent='';}
+    else{infoEl.textContent=U().selIn;nightsEl.textContent='';}
+    clearBtn.classList.toggle('show',!!checkIn);
+  }
+  prevBtn.addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()-1,1);render();});
+  nextBtn.addEventListener('click',()=>{view=new Date(view.getFullYear(),view.getMonth()+1,1);render();});
+  clearBtn.addEventListener('click',()=>{checkIn=checkOut=null;sync();render();});
+
+  $('bookForm').addEventListener('submit',e=>{
+    e.preventDefault();
+    const nombre=$('nombre').value.trim();
+    if(!checkIn||!checkOut){errEl.textContent=U().needDates;$('bkTitle').scrollIntoView({behavior:'smooth',block:'center'});return;}
+    if(!nombre){errEl.textContent=U().needName;$('nombre').focus();return;}
+    errEl.textContent='';
+    const hab=$('habitacion'),u=U();
+    let t=`${u.waHola}\n\n👤 ${u.waNom}: ${nombre}\n📅 ${u.waIn}: ${dmy(checkIn)}\n📅 ${u.waOut}: ${dmy(checkOut)}\n🌙 ${u.waN}: ${nights()}\n🛏️ ${u.waHab}: ${hab.options[hab.selectedIndex].text}\n👥 ${u.waPer}: ${$('personas').value}`;
+    const m=$('msg').value.trim();if(m)t+=`\n📝 ${u.waMsg}: ${m}`;
+    window.open('https://wa.me/'+WA+'?text='+encodeURIComponent(t),'_blank','noopener');
+  });
+
+  document.querySelectorAll('.room-btn').forEach(b=>b.addEventListener('click',()=>{
+    $('habitacion').selectedIndex=+b.dataset.idx||0;
+    if(b.dataset.idx==='2')$('personas').value='9+';
+    $('reservar').scrollIntoView({behavior:'smooth'});
+  }));
+
+  applyLang();
+})();
+</script>
+</body>
+</html>
