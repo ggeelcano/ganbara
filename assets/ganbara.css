@@ -70,7 +70,7 @@ header.scrolled .burger span{background:var(--green)}
 .hero-cta{display:flex;gap:16px;margin-top:36px;flex-wrap:wrap}
 .hero-badges{display:flex;gap:14px 26px;margin-top:48px;flex-wrap:wrap}
 .hero-badge{display:flex;align-items:center;gap:10px;font-size:.9rem;color:rgba(255,255,255,.92)}
-.hero-dots{position:absolute;right:38px;bottom:38px;z-index:3;display:flex;gap:10px}
+.hero-dots{position:absolute;right:96px;bottom:38px;z-index:3;display:flex;gap:10px}
 .hero-dots button{width:34px;height:24px;border:none;background:none;cursor:pointer;padding:0;position:relative}
 .hero-dots button::after{content:"";position:absolute;left:0;right:0;top:10px;height:4px;border-radius:4px;background:rgba(255,255,255,.35);transition:.3s}
 .hero-dots button.on::after{background:var(--gold-light)}
@@ -314,7 +314,7 @@ footer{background:#0b1f14;color:rgba(246,242,230,.72);padding:64px 0 30px}
   .hero-inner{padding:110px 0 96px}
   .hero-cta{flex-direction:column;align-items:stretch}.hero-cta .btn{justify-content:center}
   .hero-badges{flex-direction:column;gap:10px;margin-top:36px}
-  .hero-dots{right:18px;bottom:22px}
+  .hero-dots{right:90px;bottom:22px}
   .scroll-hint{display:none}
   .feature-list{grid-template-columns:1fr}
   .split .imgs img{height:300px}
@@ -335,3 +335,9 @@ footer{background:#0b1f14;color:rgba(246,242,230,.72);padding:64px 0 30px}
   .brand .name small{display:none}
   .stat .num{font-size:1.9rem}
 }
+
+/* Botón fijo de WhatsApp para reservar (5-nov-2026): por debajo de la cabecera y el menú (100) y del visor (200) */
+.wa-flot{position:fixed;right:16px;bottom:16px;z-index:90;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 14px rgba(0,0,0,.28);transition:background .2s,transform .2s}
+.wa-flot svg{width:32px;height:32px}
+.wa-flot:hover{background:#1ebe5b;transform:scale(1.05)}
+.wa-flot:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
